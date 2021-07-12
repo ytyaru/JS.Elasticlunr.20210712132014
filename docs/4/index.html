@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Elasticlunr.jsで全文検索してみる（日本語と英語の混在をしようとするもエラー）</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./lib/elasticlunr/lunr-languages/tinyseg.js"></script>
+    <script data-main="main.js" src="./lib/require/require.2.3.6.min.js"></script>
+    <!--
+    <script src="./lib/elasticlunr/elasticlunr.0.9.6.min.js"></script>
+    <script src="./lib/lunr-languages/tinyseg.js"></script>
+    <script src="./lib/lunr-languages/lunr.stemmer.support.js"></script>
+    <script src="./lib/lunr-languages/lunr.jp.js"></script>
+    <script src="./main.js"></script>
+    -->
+</head>
+<body>
+    <h1><a href="https://github.com/ytyaru/JS.Elasticlunr.20210712132014">Elasticlunr.jsを使ってみる</a></h1>
+    <input type="search" value="日本語"></input>
+    <section id="SearchResult"></section>
+    <p>
+        以下エラーが出る。
+        <code>lunr.multi.min.js:1 Uncaught TypeError: Cannot read property 'wordCharacters' of undefined</code>
+    </p>
+</body>
+</html>

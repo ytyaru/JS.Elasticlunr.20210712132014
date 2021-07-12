@@ -1,6 +1,9 @@
 [submodule "docs/2/lib/lunr-languages"]
-	path = docs/2/lib/lunr-languages
+	path = docs/2/lib/elasticlunr/lunr-languages
 	url = https://github.com/weixsong/lunr-languages
 [submodule "docs/3/lib/lunr-languages"]
-	path = docs/3/lib/lunr-languages
+	path = docs/3/lib/elasticlunr/lunr-languages
+	url = https://github.com/weixsong/lunr-languages
+[submodule "docs/4/lib/lunr-languages"]
+	path = docs/4/lib/elasticlunr/lunr-languages
 	url = https://github.com/weixsong/lunr-languages
