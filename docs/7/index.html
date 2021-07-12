@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Elasticlunr.jsで全文検索してみる（日本語と英語の混在でAND検索できる）</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script data-main="main.js" src="./lib/require/require.2.3.6.min.js"></script>
+</head>
+<body>
+    <main>
+        <h1><a href="https://github.com/ytyaru/JS.Elasticlunr.20210712132014">Elasticlunr.jsで全文検索してみる</a></h1>
+        <h2>日本語と英語の混在でAND検索できる</h2>
+        <aside>
+            <details><summary>英語の大文字と小文字を区別してしまう。</summary>
+            <small><code>Some</code>ならヒットするが<code>some</code>はヒットしない。</small>
+            </details>
+            <details><summary><code>this.use(elasticlunr.multiLanguage('en', 'ja'));</code>すると使えなくなる。</summary>
+            <small><code>this.use(elasticlunr.ja);</code>すること。ほかの言語とは合わせられない。</small>
+            </details>
+        </aside>
+        <input type="search" value="日本語 Japanese"></input>
+        <section id="SearchResult"></section>
+    </main>
+</body>
+</html>
