@@ -7,3 +7,6 @@
 [submodule "docs/4/lib/lunr-languages"]
 	path = docs/4/lib/elasticlunr/lunr-languages
 	url = https://github.com/weixsong/lunr-languages
+[submodule "docs/6/lib/elasticlunr/lunr-languages"]
+	path = docs/6/lib/elasticlunr/lunr-languages
+	url = https://github.com/ytyaru/lunr-languages
